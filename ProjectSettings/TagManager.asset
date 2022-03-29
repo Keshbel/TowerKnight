@@ -4,9 +4,9 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Enemy
   - BottomBorder
-  - RedEnemy
+  - SafeObject
+  - DangerousObject
   layers:
   - Default
   - TransparentFX
