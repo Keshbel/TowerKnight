@@ -45,6 +45,11 @@ public class MainHero : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
     }
 
+    private void OnDestroy()
+    {
+        _tweenVertical.Kill();
+    }
+    
     // Update is called once per frame
     void Update()
     {
@@ -73,7 +78,7 @@ public class MainHero : MonoBehaviour
                                                            || transform.localPosition.y + Screen.height < 200)
             transform.localPosition = Vector3.zero;
     }
-
+    
     private void FixedUpdate()
     {
         if (isMovement)
@@ -103,11 +108,6 @@ public class MainHero : MonoBehaviour
         {
             SceneManager.LoadScene(0);
         }
-    }
-
-    private void OnDestroy()
-    {
-        _tweenVertical.Kill();
     }
 
     private void MoveToStartPosition()

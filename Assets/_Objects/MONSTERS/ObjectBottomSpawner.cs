@@ -8,11 +8,11 @@ public class ObjectBottomSpawner : MonoBehaviour
 {
     public GameObject objectParent;
     public List<GameObject> objectPrefubs;
-    public List<GameObject> currentExistObjects;
+    
     public List<int> safeIntPrefubs;
-    public int countSafeObject;
-    public int countDangerousObject;
 
+
+    private bool _isExist = true;
 
     private void Start()
     {
@@ -21,6 +21,7 @@ public class ObjectBottomSpawner : MonoBehaviour
 
     private void OnDestroy()
     {
+        _isExist = false;
         StopCoroutine(ObjectSpawnerRoutine());
     }
 
@@ -44,29 +45,31 @@ public class ObjectBottomSpawner : MonoBehaviour
     {
         while (true)
         {
-            if (currentExistObjects.Count < 10)
+            if (!_isExist)
+                yield break;
+            
+            if (CountObjectsStatic.CountDangerousObject + CountObjectsStatic.CountSafeObject < 10)
             {
                 int randomCountCreateObject = Random.Range(0, 3);
                 
                 for (int i = 0; i < randomCountCreateObject; i++)
                 {
                     int randomPrefub;
-                    if (countSafeObject < 1) //если мало безопасных объектов, то точно создаем один такой
+                    if (CountObjectsStatic.CountSafeObject < 1) //если мало безопасных объектов, то точно создаем один такой
                     {
                         randomPrefub = safeIntPrefubs[Random.Range(0, safeIntPrefubs.Count)];
-                        countSafeObject++;
+                        CountObjectsStatic.CountSafeObject++;
                     }
                     else //иначе создаем рандомый объект
                     {
                         randomPrefub = Random.Range(0, objectPrefubs.Count);
                         if (safeIntPrefubs.Contains(randomPrefub))
-                            countSafeObject++;
+                            CountObjectsStatic.CountSafeObject++;
                         else 
-                            countDangerousObject++;
+                            CountObjectsStatic.CountDangerousObject++;
                     }
 
                     var newObject = Instantiate(objectPrefubs[randomPrefub], objectParent.transform, false);
-                    currentExistObjects.Add(newObject);
                 }
             }
             yield return new WaitForSeconds(1f);

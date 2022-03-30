@@ -11,6 +11,8 @@ public class CloudManager : MonoBehaviour
     public GameObject cloudParent;
     public List<GameObject> cloudPrefubs;
     public List<GameObject> currentCloudsExist;
+
+    public bool isExist = true;
     // Start is called before the first frame update
     void Start()
     {
@@ -21,6 +23,7 @@ public class CloudManager : MonoBehaviour
 
     private void OnDestroy()
     {
+        isExist = false;
         StopCoroutine(CloudSpawnerRoutine());
     }
 
@@ -28,7 +31,9 @@ public class CloudManager : MonoBehaviour
     {
         while (true)
         {
-            if (currentCloudsExist.Count < 10)
+            if (!isExist)
+                yield break;
+            if (currentCloudsExist.Count < 30)
             {
                 int randomCountCreateClouds = Random.Range(0, 2);
                 for (int i = 0; i < randomCountCreateClouds; i++)

@@ -32,7 +32,7 @@ public abstract class Enemy : MonoBehaviour
     private void OnDestroy()
     {
         _tweenHorizontalMove.Kill();
-        StopAllCoroutines();
+        StopCoroutine(JumpingRoutine());
     }
 
     private IEnumerator JumpingRoutine()
@@ -60,12 +60,11 @@ public abstract class Enemy : MonoBehaviour
     {
         if (other.collider.CompareTag("BottomBorder"))
         {
-            _objectBottomSpawner.currentExistObjects.Remove(this.gameObject);
             if (gameObject.CompareTag("SafeObject"))
-                _objectBottomSpawner.countSafeObject--;
+                CountObjectsStatic.CountSafeObject--;
             else
             {
-                _objectBottomSpawner.countDangerousObject--;
+                CountObjectsStatic.CountDangerousObject--;
             }
             Destroy(this.gameObject);
         }

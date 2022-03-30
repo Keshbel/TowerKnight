@@ -10,11 +10,12 @@ namespace Clouds
     public class CloudAnimation : MonoBehaviour
     {
         private TweenerCore<Vector3, Vector3, VectorOptions> _tweenerCoreMoveX;
-
         private TweenerCore<Vector3, Vector3, VectorOptions> _tweenerCoreScale;
         private TweenerCore<Quaternion, Vector3, QuaternionOptions> _tweenerCoreRotate;
         
-        Vector3 _rotateCloud = new Vector3(0, 0, 3f);
+        Vector3 _rotateCloud = new Vector3(0, 0, 1f);
+
+        private bool _isExist = true;
 
         // Start is called before the first frame update
         void Start()
@@ -27,47 +28,38 @@ namespace Clouds
 
         private void OnDestroy()
         {
-            StopCoroutine(CloudAnimationRoutine());
-            StopAllCoroutines();
-
-            _tweenerCoreMoveX?.Complete();
+            _isExist = false;
             _tweenerCoreMoveX?.Kill();
-            _tweenerCoreScale?.Complete();
-            _tweenerCoreRotate?.Complete();
+            _tweenerCoreScale?.Kill();
+            _tweenerCoreRotate?.Kill();
+            StopCoroutine(CloudAnimationRoutine());
+            
+            _tweenerCoreMoveX?.Kill();
             _tweenerCoreScale?.Kill();
             _tweenerCoreRotate?.Kill();
         }
 
         private IEnumerator CloudAnimationRoutine()
         {
-            _tweenerCoreScale?.Kill();
-            _tweenerCoreRotate?.Kill();
-            _tweenerCoreScale = transform.DOScale(0.95f, 1f).OnComplete(() => transform.DOScale(1f, 1f));
-            _tweenerCoreRotate = transform.DORotate(_rotateCloud, 1f)
-                .OnComplete(() => transform.DORotate(-_rotateCloud, 1f));
+            while (true)
+            {
+                if (!_isExist)
+                    yield break;
+                
+                _tweenerCoreScale?.Kill();
+                _tweenerCoreRotate?.Kill();
+                _tweenerCoreScale = transform.DOScale(0.99f, 0.3f).OnComplete(() => _tweenerCoreScale = transform.DOScale(1f, 0.3f));
+                _tweenerCoreRotate = transform.DORotate(_rotateCloud, 0.3f)
+                    .OnComplete(() => _tweenerCoreRotate = transform.DORotate(-_rotateCloud, 0.3f));
 
-            yield return new WaitForSeconds(2f);
-            
-            _tweenerCoreScale?.Kill();
-            _tweenerCoreRotate?.Kill();
-            _tweenerCoreScale = transform.DOScale(0.95f, 1f).OnComplete(() => transform.DOScale(1f, 1f));
-            _tweenerCoreRotate = transform.DORotate(_rotateCloud, 1f)
-                .OnComplete(() => transform.DORotate(-_rotateCloud, 1f));
-            
-            yield return new WaitForSeconds(2f);
-            
-            _tweenerCoreScale?.Kill();
-            _tweenerCoreRotate?.Kill();
-            _tweenerCoreScale = transform.DOScale(0.95f, 1f).OnComplete(() => transform.DOScale(1f, 1f));
-            _tweenerCoreRotate = transform.DORotate(_rotateCloud, 1f)
-                .OnComplete(() => transform.DORotate(-_rotateCloud, 1f));
-            // ReSharper disable once IteratorNeverReturns
+                yield return new WaitForSeconds(0.6f);
+            }
         }
 
         public void TranslateCloud(GameObject cloud, List<GameObject> currentCloudsExist)
         {
             _tweenerCoreMoveX?.Kill();
-            _tweenerCoreMoveX = cloud.transform.DOLocalMoveX(Screen.width * 0.5f, 10f, false)
+            _tweenerCoreMoveX = cloud.transform.DOLocalMoveX(Screen.width, 20f)
                 .OnComplete(() => { 
                     currentCloudsExist.Remove(cloud);
                     Destroy(cloud); 
