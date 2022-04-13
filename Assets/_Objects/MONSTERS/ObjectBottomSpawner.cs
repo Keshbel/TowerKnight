@@ -16,12 +16,13 @@ public class ObjectBottomSpawner : MonoBehaviour
 
     private void Start()
     {
-        StartCoroutine(ObjectSpawnerRoutine());
+        StartJumpScript.StartJump += StartMainRoutine;
     }
 
     private void OnDestroy()
     {
         _isExist = false;
+        StartJumpScript.StartJump -= StartMainRoutine;
         StopCoroutine(ObjectSpawnerRoutine());
     }
 
@@ -40,6 +41,11 @@ public class ObjectBottomSpawner : MonoBehaviour
         }
     }
     */
+
+    private void StartMainRoutine()
+    {
+        StartCoroutine(ObjectSpawnerRoutine());
+    }
     
     private IEnumerator ObjectSpawnerRoutine()
     {

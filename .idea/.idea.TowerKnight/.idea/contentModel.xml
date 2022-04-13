@@ -10,7 +10,6 @@
       <e p="Assets" t="Include">
         <e p="_Objects" t="Include">
           <e p="HERO" t="Include">
-            <e p="HpBarScript.cs" t="Include" />
             <e p="MainHero.cs" t="Include" />
           </e>
           <e p="MONSTERS" t="Include">
@@ -25,6 +24,7 @@
           </e>
         </e>
         <e p="Background" t="Include">
+          <e p="BackgroundScript.cs" t="Include" />
           <e p="Clouds" t="Include">
             <e p="Scripts" t="Include">
               <e p="CloudAnimation.cs" t="Include" />
@@ -145,6 +145,11 @@
             </e>
           </e>
         </e>
+        <e p="MainMenu" t="Include">
+          <e p="Scripts" t="Include">
+            <e p="MainMenuController.cs" t="Include" />
+          </e>
+        </e>
         <e p="Plugins" t="Include">
           <e p="Demigiant" t="Include">
             <e p="DOTween" t="Include">
@@ -163,8 +168,18 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
-          <e p="GravityScript.cs" t="Include" />
-          <e p="Health.cs" t="Include" />
+          <e p="GameSettingsScript.cs" t="Include" />
+          <e p="Health" t="Include">
+            <e p="Health.cs" t="Include" />
+            <e p="HpBarScript.cs" t="Include" />
+          </e>
+          <e p="PauseScript.cs" t="Include" />
+          <e p="Progress" t="Include">
+            <e p="ProgressBarScript.cs" t="Include" />
+            <e p="ProgressData.cs" t="Include" />
+            <e p="ProgressScript.cs" t="Include" />
+          </e>
+          <e p="StartJumpScript.cs" t="Include" />
         </e>
       </e>
       <e p="obj" t="ExcludeRecursive" />

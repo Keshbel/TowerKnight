@@ -1,12 +1,8 @@
 using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Numerics;
 using UnityEngine;
 using DG.Tweening;
 using DG.Tweening.Core;
 using DG.Tweening.Plugins.Options;
-using UnityEditor.SearchService;
 using UnityEngine.SceneManagement;
 using Vector2 = UnityEngine.Vector2;
 using Vector3 = UnityEngine.Vector3;
@@ -24,13 +20,15 @@ public class MainHero : MonoBehaviour
     public bool isMovement; // может ли двигаться персонаж?
     public bool facingRight; // повернут ли вправо?
     public float horizontalMove; //скорость текущего передвижения по горизонтальной оси
+    public float inputType; //скорость текущего передвижения по горизонтальной оси
     [Range(0, 100f)] public float speed = 10f; //контроль скорости
     private Vector2 _moveVelocity;
     
     [Header("Attack")]
-    public bool isAttack = false;
+    public bool isAttack;
     [Range(0, 100f)] public float jumpForce;
     [Range(0, 100f)] public float jumpTime;
+    public AudioSource dashSound;
     private TweenerCore<Vector3, Vector3, VectorOptions> _tweenVertical;
 
     [Header("Positions")]
@@ -41,42 +39,76 @@ public class MainHero : MonoBehaviour
     void Start()
     {
         DOTween.SetTweensCapacity(10000, 50);
-        isMovement = true;
-        rb = GetComponent<Rigidbody2D>();
+        StartJumpScript.StartJump += StartJump;
+        
+        /*if (Application.platform == RuntimePlatform.WindowsPlayer || Application.platform == RuntimePlatform.WindowsEditor)*/
+        //inputType = 
+        /*if (Application.platform != RuntimePlatform.Android &&
+            Application.platform != RuntimePlatform.IPhonePlayer) return;
+        inputType = Input.acceleration.x;
+        Debug.Log("Игра на мобильном устройстве");*/
     }
 
-    private void OnDestroy()
+    private void OnCollisionEnter2D(Collision2D other)
     {
-        _tweenVertical.Kill();
+        if (other.transform.position.y - transform.position.y >= 100)
+            return;
+        
+        if (other.gameObject.CompareTag("SafeObject"))
+        {
+            MoveToStartPosition();
+        }
+        
+        if (other.gameObject.CompareTag("DangerousObject"))
+        {
+            health.ChangeHealth(-1);
+            MoveToStartPosition();
+        }
+        
+        
+        if (other.gameObject.CompareTag("BottomBorder"))
+        {
+            health.ChangeHealth(-1);
+            MoveToStartPosition();
+        }
     }
     
     // Update is called once per frame
     void Update()
     {
+        #if UNITY_STANDALONE
         horizontalMove = Input.GetAxisRaw("Horizontal") * speed;
-        //Walk();
+        #endif
+        
+        #if UNITY_ANDROID || UNITY_IOS
+        horizontalMove = Input.acceleration.x * speed;
+        #endif
+        
+        if(Input.GetAxis("Jump") > 0 && isMovement)
+            Attack();
+
+        #region FlipFace
         if (horizontalMove < 0 && facingRight)
         {
             FlipFace();
         }
-
         if (horizontalMove > 0 && !facingRight)
         {
             FlipFace();
         }
-
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            Attack();
-        }
+        #endregion
 
         if (health.currentHealth <= 0)
-            SceneManager.LoadScene(0);
+            SceneManager.LoadScene(1);
 
         if (transform.localPosition.x - Screen.width > 200 || transform.localPosition.x + Screen.width < 200
                                                            || transform.localPosition.y - Screen.height > 200
                                                            || transform.localPosition.y + Screen.height < 200)
+        {
             transform.localPosition = Vector3.zero;
+            isAttack = false;
+            isMovement = true;
+        }
     }
     
     private void FixedUpdate()
@@ -88,45 +120,36 @@ public class MainHero : MonoBehaviour
         }
     }
     
-    private void OnCollisionEnter2D(Collision2D other)
+    private void OnDestroy()
     {
-        if (other.transform.position.y - transform.position.y >= 50)
-            return;
-        
-        if (other.collider.CompareTag("SafeObject"))
-        {
-            MoveToStartPosition();
-        }
-        
-        if (other.collider.CompareTag("DangerousObject"))
-        {
-            health.ChangeHealth(-1);
-            MoveToStartPosition();
-        }
-
-        if (other.collider.CompareTag("BottomBorder"))
-        {
-            SceneManager.LoadScene(0);
-        }
+        _tweenVertical.Kill();
+        StartJumpScript.StartJump -= StartJump;
     }
-
+    
     private void MoveToStartPosition()
     {
-        isAttack = false;
+        Invoke(nameof(IsAttackFalse), 0.1f);
+        rb.Sleep();
         _tweenVertical?.Kill();
         _tweenVertical = transform.DOMoveY(startPosition.position.y, jumpTime). 
-            OnComplete(() => rb.Sleep());
+            OnComplete(() =>
+            {
+                rb.WakeUp();
+            });
         animator.SetTrigger("Jump");
     }
+
     private void Attack()
     {
         if (!isAttack)
         {
+            dashSound.Play();
+            isAttack = true;
+            rb.WakeUp();
             _tweenVertical?.Kill();
             _tweenVertical = transform.DOMoveY(fallPosition.position.y, jumpTime * 1.5f);
             animator.SetTrigger("Attack");
         }
-        isAttack = true;
     }
 
     private void FlipFace()
@@ -136,5 +159,20 @@ public class MainHero : MonoBehaviour
         Vector3 theScale = transform.localScale;
         theScale.x *= -1;
         transform.localScale = theScale;
+    }
+
+    private void StartJump()
+    {
+        isAttack = false;
+        isMovement = true;
+        _tweenVertical?.Kill();
+        _tweenVertical = transform.DOMoveY(startPosition.position.y, jumpTime*2). 
+            OnComplete(() => rb.Sleep());
+        animator.SetTrigger("Jump");
+    }
+
+    private void IsAttackFalse()
+    {
+        isAttack = false;
     }
 }

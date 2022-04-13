@@ -13,6 +13,9 @@ public class FirebollScript : MonoBehaviour
     private TweenerCore<Vector3, Vector3, VectorOptions> _tweenerCoreMoveX;
     private TweenerCore<Vector3, Vector3, VectorOptions> _tweenerCoreAlert;
 
+    public ParticleSystem fireExplosionEffect;
+    public AudioSource boomSound;
+
     public Transform alertImage;
     // Start is called before the first frame update
     void Start()
@@ -32,7 +35,7 @@ public class FirebollScript : MonoBehaviour
     {
         alertImage.gameObject.SetActive(false);
         _tweenerCoreMoveX?.Kill();
-        _tweenerCoreMoveX = transform.DOLocalMoveY(Screen.height, 4f)
+        _tweenerCoreMoveX = transform.DOLocalMoveY(Screen.height*1.5f, 4f)
             .OnComplete(() =>
             {
                 Destroy(gameObject); 
@@ -48,8 +51,16 @@ public class FirebollScript : MonoBehaviour
             .OnComplete(() => TranslateFireboll());
     }
 
-    private void OnCollisionEnter2D(Collision2D other)
+    private IEnumerator OnCollisionEnter2D(Collision2D collision2D)
     {
-        Destroy(gameObject); 
+        if (collision2D.collider.CompareTag("Player") || collision2D.collider.CompareTag("DangerousObject") ||
+            collision2D.collider.CompareTag("SafeObject"))
+        {
+            fireExplosionEffect.Play();
+            boomSound.Play();
+            yield return new WaitForSeconds(0.05f);
+            Destroy(gameObject);
+        }
+        Destroy(gameObject);
     }
 }

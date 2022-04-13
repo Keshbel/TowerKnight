@@ -16,17 +16,21 @@ public class CloudManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        StartCoroutine(CloudSpawnerRoutine());
-        
-        print("Ширина экрана =" + Screen.width);
+        StartJumpScript.StartJump += StartMainRoutine;
     }
 
     private void OnDestroy()
     {
         isExist = false;
+        StartJumpScript.StartJump -= StartMainRoutine;
         StopCoroutine(CloudSpawnerRoutine());
     }
 
+    private void StartMainRoutine()
+    {
+        StartCoroutine(CloudSpawnerRoutine());
+    }
+    
     private IEnumerator CloudSpawnerRoutine()
     {
         while (true)

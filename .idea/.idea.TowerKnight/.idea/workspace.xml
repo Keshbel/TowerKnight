@@ -21,15 +21,47 @@
   <component name="ChangeListManager">
     <list default="true" id="06a032da-22ec-4449-8241-6cfc215879e6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TowerKnight/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TowerKnight/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TowerKnight/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TowerKnight/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TowerKnight/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TowerKnight/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Background/Clouds/Scripts/CloudAnimation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Background/Clouds/Scripts/CloudAnimation.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Background/Clouds/Scripts/CloudManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Background/Clouds/Scripts/CloudManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Background/Sky.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Background/Sky.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Background/Stars.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Background/Stars.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ImportedAssets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ImportedAssets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Electronic Highway Sign SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ImportedAssets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Electronic Highway Sign SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Oswald Bold SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ImportedAssets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Oswald Bold SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ImportedAssets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ImportedAssets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/TextMesh Pro/Resources/TMP Settings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ImportedAssets/TextMesh Pro/Resources/TMP Settings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/JMO Assets.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/JMO Assets.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/JMO Assets/Cartoon FX/CFX Prefabs/Hits/CFX_Hit_A Red+RandomText.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/JMO Assets/Cartoon FX/CFX Prefabs/Hits/CFX_Hit_A Red+RandomText.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/JMO Assets/Cartoon FX/CFX4 Prefabs/Misc/CFX4 Hit B (Orange).prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/JMO Assets/Cartoon FX/CFX4 Prefabs/Misc/CFX4 Hit B (Orange).prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GravityScript.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GravityScript.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Health.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Health.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/HERO/Animations/Hero.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Objects/HERO/Animations/Hero.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/HERO/HpBarScript.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/HERO/HpBarScript.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Objects/HERO/MainHero.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Objects/HERO/MainHero.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Enemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Enemy.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Fireboll/FirebollScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Fireboll/FirebollScript.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/ObjectBottomSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/ObjectBottomSpawner.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Prefubs/Fireboll.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Prefubs/Fireboll.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Prefubs/SlimeGreen.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Prefubs/SlimeGreen.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Prefubs/SlimeOrange.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Prefubs/SlimeOrange.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/ApiUpdaterCheck.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/ApiUpdaterCheck.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe1.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe1.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe3.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe3.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +72,10 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Background/BackgroundScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PauseScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Objects/MONSTERS/CountObjectsStatic.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Progress/ProgressBarScript.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -53,14 +88,25 @@
         <option value="$PROJECT_DIR$/Assets/_Objects/MONSTERS/MonsterSpawner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Health.cs" />
         <option value="$PROJECT_DIR$/Assets/_Objects/HERO/HpBarScript.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Objects/HERO/MainHero.cs" />
         <option value="$PROJECT_DIR$/Assets/Background/Clouds/Scripts/CloudAnimation.cs" />
-        <option value="$PROJECT_DIR$/Assets/Background/Clouds/Scripts/CloudManager.cs" />
         <option value="$PROJECT_DIR$/Assets/_Objects/MONSTERS/FirebollScript.cs" />
         <option value="$PROJECT_DIR$/Assets/_Objects/MONSTERS/CountObjectsStatic.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Fireboll/FirebollScript.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Enemy.cs" />
+        <option value="$PROJECT_DIR$/Assets/MainMenu/MainMenuController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Follow2D.cs" />
+        <option value="$PROJECT_DIR$/Assets/Background/BackgroundScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ProgressCoreStatic.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Health/Health.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Progress/ProgressScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PauseScript.cs" />
         <option value="$PROJECT_DIR$/Assets/_Objects/MONSTERS/ObjectBottomSpawner.cs" />
+        <option value="$PROJECT_DIR$/Assets/Background/Clouds/Scripts/CloudManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/StartJumpScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Progress/ProgressData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Progress/ProgressBarScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameSettingsScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Enemy.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Fireboll/FirebollScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Objects/HERO/MainHero.cs" />
       </list>
     </option>
   </component>
@@ -70,6 +116,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -77,6 +124,14 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/_builds/TowerMage_0.35v_03.04.22\Tower Knight.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\Keshbel\Documents\GitHub\TowerKnight\_builds\TowerMage_0.35v_03.04.22" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
@@ -106,7 +161,18 @@
       <updated>1648477050667</updated>
       <workItem from="1648477057575" duration="3444000" />
       <workItem from="1648549733802" duration="17996000" />
-      <workItem from="1648658062691" duration="5305000" />
+      <workItem from="1648658062691" duration="5813000" />
+      <workItem from="1648744605398" duration="921000" />
+      <workItem from="1648818016729" duration="1398000" />
+      <workItem from="1648881748179" duration="8214000" />
+      <workItem from="1648996889927" duration="6367000" />
+      <workItem from="1649261471230" duration="4333000" />
+      <workItem from="1649348444645" duration="4436000" />
+      <workItem from="1649603553020" duration="4896000" />
+      <workItem from="1649608918910" duration="2802000" />
+      <workItem from="1649612459791" duration="921000" />
+      <workItem from="1649679839947" duration="1761000" />
+      <workItem from="1649780213265" duration="1984000" />
     </task>
     <servers />
   </component>
@@ -135,5 +201,9 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="533" y="201" key="SettingsEditor/0.0.2048.1112@0.0.2048.1112" timestamp="1648568191581" />
+    <state x="93" y="93" width="1862" height="926" key="VCS.FileHistoryDialog" timestamp="1649003752342">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="93" y="93" width="1862" height="926" key="VCS.FileHistoryDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1649003752342" />
   </component>
 </project>
