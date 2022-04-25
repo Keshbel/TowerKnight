@@ -38,7 +38,7 @@ public class MainHero : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        DOTween.SetTweensCapacity(10000, 50);
+        //DOTween.SetTweensCapacity(10000, 50);
         StartJumpScript.StartJump += StartJump;
         
         /*if (Application.platform == RuntimePlatform.WindowsPlayer || Application.platform == RuntimePlatform.WindowsEditor)*/
@@ -101,14 +101,14 @@ public class MainHero : MonoBehaviour
         if (health.currentHealth <= 0)
             SceneManager.LoadScene(1);
 
-        if (transform.localPosition.x - Screen.width > 200 || transform.localPosition.x + Screen.width < 200
+        /*if (transform.localPosition.x - Screen.width > 200 || transform.localPosition.x + Screen.width < 200
                                                            || transform.localPosition.y - Screen.height > 200
                                                            || transform.localPosition.y + Screen.height < 200)
         {
             transform.localPosition = Vector3.zero;
             isAttack = false;
             isMovement = true;
-        }
+        }*/
     }
     
     private void FixedUpdate()
@@ -131,7 +131,7 @@ public class MainHero : MonoBehaviour
         Invoke(nameof(IsAttackFalse), 0.1f);
         rb.Sleep();
         _tweenVertical?.Kill();
-        _tweenVertical = transform.DOMoveY(startPosition.position.y, jumpTime). 
+        _tweenVertical = transform.DOMoveY(startPosition.localPosition.y, jumpTime). 
             OnComplete(() =>
             {
                 rb.WakeUp();

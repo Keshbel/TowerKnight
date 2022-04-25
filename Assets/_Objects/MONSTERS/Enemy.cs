@@ -29,7 +29,8 @@ public abstract class Enemy : MonoBehaviour
         _objectBottomSpawner = FindObjectOfType<ObjectBottomSpawner>();
         _rigidbody2D = GetComponent<Rigidbody2D>();
         //StartRandomXPosition
-        gameObject.transform.localPosition = new Vector3(Random.Range(-Screen.width/2+100, Screen.width/2-100), this.gameObject.transform.localPosition.y);
+        var pPos = transform.parent.position;
+        gameObject.transform.localPosition = new Vector3(Random.Range(pPos.x -9, pPos.x + 9), this.gameObject.transform.localPosition.y); // x = -Screen.width/2+100, Screen.width/2-100
         //Jumping
         StartCoroutine(JumpingRoutine());
     }
@@ -69,10 +70,10 @@ public abstract class Enemy : MonoBehaviour
         var rand = Random.Range(0, 2);
         print(rand);
         if (rand == 0)
-            _tweenHorizontalMove = transform.DOLocalMoveX(transform.localPosition.x + 100, 4f);
+            _tweenHorizontalMove = transform.DOLocalMoveX(transform.localPosition.x + 1, 4f);
         else
         {
-            _tweenHorizontalMove = transform.DOLocalMoveX(transform.localPosition.x - 100, 4f);
+            _tweenHorizontalMove = transform.DOLocalMoveX(transform.localPosition.x - 1, 4f);
         }
         yield return new WaitForSeconds(3f);
         _rigidbody2D.gravityScale = 0.001f;

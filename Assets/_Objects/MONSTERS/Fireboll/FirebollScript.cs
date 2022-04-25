@@ -1,11 +1,8 @@
-using System;
 using System.Collections;
-using System.Collections.Generic;
 using DG.Tweening;
 using DG.Tweening.Core;
 using DG.Tweening.Plugins.Options;
 using UnityEngine;
-using UnityEngine.UI;
 using Random = UnityEngine.Random;
 
 public class FirebollScript : MonoBehaviour
@@ -13,7 +10,7 @@ public class FirebollScript : MonoBehaviour
     private TweenerCore<Vector3, Vector3, VectorOptions> _tweenerCoreMoveX;
     private TweenerCore<Vector3, Vector3, VectorOptions> _tweenerCoreAlert;
 
-    public ParticleSystem fireExplosionEffect;
+    public GameObject fireExplosionPrefub;
     public AudioSource boomSound;
 
     public Transform alertImage;
@@ -56,7 +53,7 @@ public class FirebollScript : MonoBehaviour
         if (collision2D.collider.CompareTag("Player") || collision2D.collider.CompareTag("DangerousObject") ||
             collision2D.collider.CompareTag("SafeObject"))
         {
-            fireExplosionEffect.Play();
+            GameObject firePuff = Instantiate(fireExplosionPrefub, gameObject.transform.position, Quaternion.identity);
             boomSound.Play();
             yield return new WaitForSeconds(0.05f);
             Destroy(gameObject);

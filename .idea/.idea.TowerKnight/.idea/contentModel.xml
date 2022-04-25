@@ -23,7 +23,7 @@
             <e p="RedMonster.cs" t="Include" />
           </e>
         </e>
-        <e p="Background" t="Include">
+        <e p="Backgrounds" t="Include">
           <e p="BackgroundScript.cs" t="Include" />
           <e p="Clouds" t="Include">
             <e p="Scripts" t="Include">

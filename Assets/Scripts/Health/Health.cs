@@ -14,7 +14,7 @@ public class Health : MonoBehaviour
     public int maxHealth = 1;
     public int currentHealth;
     
-    private Image _characterImage;
+    private SpriteRenderer _characterSpriteRenderer;
     [Header("Change color")] 
     private TweenerCore<Color, Color, ColorOptions> _tweenColor;
     private Color _defaultColor;
@@ -26,8 +26,8 @@ public class Health : MonoBehaviour
     {
         currentHealth = maxHealth;
         ChangeHealth(0);
-        _characterImage = GetComponent<Image>();
-        _defaultColor = _characterImage.color;
+        _characterSpriteRenderer = GetComponent<SpriteRenderer>();
+        _defaultColor = _characterSpriteRenderer.color;
         _redColor = Color.red;
     }
 
@@ -65,14 +65,14 @@ public class Health : MonoBehaviour
     {
         HealthChanged?.Invoke(0);
         _tweenColor?.Kill();
-        _tweenColor = _characterImage.DOColor(_redColor, 0.1f);
+        _tweenColor = _characterSpriteRenderer.DOColor(_redColor, 0.1f);
     }
 
     private void GetDamage()
     {
         //change color
         _tweenColor?.Kill();
-        _tweenColor = _characterImage.DOColor(_redColor, 0.2f).
-            OnComplete(() => _characterImage.DOColor(_defaultColor, 0.1f));
+        _tweenColor = _characterSpriteRenderer.DOColor(_redColor, 0.2f).
+            OnComplete(() => _characterSpriteRenderer.DOColor(_defaultColor, 0.1f));
     }
 }
