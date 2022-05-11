@@ -7,7 +7,8 @@ using Random = UnityEngine.Random;
 public class ObjectBottomSpawner : MonoBehaviour
 {
     public GameObject objectParent;
-    public List<GameObject> objectPrefubs;
+    public List<GameObject> objectPrefubsNotAdded;
+    public List<GameObject> objectPrefubsCurrent;
     
     public List<int> safeIntPrefubs;
 
@@ -16,14 +17,26 @@ public class ObjectBottomSpawner : MonoBehaviour
 
     private void Start()
     {
+        ProgressData.LevelChanged += RandomAddedObject;
         StartJumpScript.StartJump += StartMainRoutine;
     }
 
     private void OnDestroy()
     {
         _isExist = false;
+        ProgressData.LevelChanged -= RandomAddedObject;
         StartJumpScript.StartJump -= StartMainRoutine;
         StopCoroutine(ObjectSpawnerRoutine());
+    }
+
+    public void RandomAddedObject()
+    {
+        //берем случайный объект из недобавленных
+        var randomObject = objectPrefubsNotAdded[Random.Range(0, objectPrefubsNotAdded.Count)];
+        //добавляем его в текущий список спавна
+        objectPrefubsCurrent.Add(randomObject);
+        //убираем из недобавленных
+        objectPrefubsNotAdded.Remove(randomObject);
     }
 
     /*// Update is called once per frame
@@ -68,14 +81,14 @@ public class ObjectBottomSpawner : MonoBehaviour
                     }
                     else //иначе создаем рандомый объект
                     {
-                        randomPrefub = Random.Range(0, objectPrefubs.Count);
+                        randomPrefub = Random.Range(0, objectPrefubsCurrent.Count);
                         if (safeIntPrefubs.Contains(randomPrefub))
                             CountObjectsStatic.CountSafeObject++;
                         else 
                             CountObjectsStatic.CountDangerousObject++;
                     }
 
-                    var newObject = Instantiate(objectPrefubs[randomPrefub], objectParent.transform, false);
+                    var newObject = Instantiate(objectPrefubsCurrent[randomPrefub], objectParent.transform, false);
                 }
             }
             yield return new WaitForSeconds(1f);

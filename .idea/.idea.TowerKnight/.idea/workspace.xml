@@ -20,26 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06a032da-22ec-4449-8241-6cfc215879e6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.TowerKnight/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TowerKnight/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TowerKnight/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TowerKnight/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TowerKnight/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TowerKnight/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/JMO Assets/Cartoon FX/CFX3 Prefabs/Misc/CFX3_Skull_Explosion.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/JMO Assets/Cartoon FX/CFX3 Prefabs/Misc/CFX3_Skull_Explosion.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeOrangeanim.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeOrangeanim.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Enemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Enemy.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/HERO/Animations/Hero.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Objects/HERO/Animations/Hero.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/ObjectBottomSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/ObjectBottomSpawner.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Prefubs/SlimeGreen.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Prefubs/SlimeGreen.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Prefubs/SlimeOrange.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Prefubs/SlimeOrange.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/RedMonster.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/RedMonster.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe1.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe1.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe10.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe10.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe11.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe11.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe2.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe2.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe3.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe3.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe4.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe4.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe5.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe5.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe6.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe6.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe7.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe7.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe8.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe8.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe9.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe9.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +41,8 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PauseScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Objects/MONSTERS/CountObjectsStatic.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Progress/ProgressBarScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/InfoPanelScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/Panel.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -74,7 +64,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/ProgressCoreStatic.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Progress/ProgressScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PauseScript.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Objects/MONSTERS/ObjectBottomSpawner.cs" />
         <option value="$PROJECT_DIR$/Assets/Background/Clouds/Scripts/CloudManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/StartJumpScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Progress/ProgressData.cs" />
@@ -85,6 +74,9 @@
         <option value="$PROJECT_DIR$/Assets/_Objects/HERO/MainHero.cs" />
         <option value="$PROJECT_DIR$/Assets/_Objects/MONSTERS/RedMonster.cs" />
         <option value="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Enemy.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Objects/MONSTERS/ObjectBottomSpawner.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/InfoPanelScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/Panel.cs" />
       </list>
     </option>
   </component>
@@ -155,6 +147,7 @@
       <workItem from="1650183248419" duration="2727000" />
       <workItem from="1650187605812" duration="1342000" />
       <workItem from="1651741738002" duration="1284000" />
+      <workItem from="1652021319752" duration="2489000" />
     </task>
     <servers />
   </component>

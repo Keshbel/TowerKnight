@@ -173,6 +173,7 @@
             <e p="Health.cs" t="Include" />
             <e p="HpBarScript.cs" t="Include" />
           </e>
+          <e p="InfoPanelScript.cs" t="Include" />
           <e p="PauseScript.cs" t="Include" />
           <e p="Progress" t="Include">
             <e p="ProgressBarScript.cs" t="Include" />
@@ -180,6 +181,9 @@
             <e p="ProgressScript.cs" t="Include" />
           </e>
           <e p="StartJumpScript.cs" t="Include" />
+          <e p="UI" t="Include">
+            <e p="Panel.cs" t="Include" />
+          </e>
         </e>
       </e>
       <e p="obj" t="ExcludeRecursive" />
