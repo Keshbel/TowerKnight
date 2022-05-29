@@ -686,7 +686,6 @@ GameObject:
   - component: {fileID: 328593363}
   - component: {fileID: 328593365}
   - component: {fileID: 328593364}
-  - component: {fileID: 328593366}
   m_Layer: 5
   m_Name: Panel
   m_TagString: Untagged
@@ -703,7 +702,7 @@ RectTransform:
   m_GameObject: {fileID: 328593362}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 985724383}
   - {fileID: 394622408}
@@ -753,18 +752,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 328593362}
   m_CullTransparentMesh: 1
---- !u!225 &328593366
-CanvasGroup:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 328593362}
-  m_Enabled: 1
-  m_Alpha: 1
-  m_Interactable: 1
-  m_BlocksRaycasts: 1
-  m_IgnoreParentGroups: 1
 --- !u!1 &330552294
 GameObject:
   m_ObjectHideFlags: 0
@@ -798,10 +785,10 @@ RectTransform:
   m_Father: {fileID: 1409639327}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 258.725, y: -90.095}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &330552296
 MonoBehaviour:
@@ -890,9 +877,9 @@ RectTransform:
   m_Father: {fileID: 394622408}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 200, y: -246.27501}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 308, y: 130.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &331036093
@@ -1139,9 +1126,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Continue
-
-'
+  m_text: "\u041F\u0440\u043E\u0434\u043E\u043B\u0436\u0438\u0442\u044C"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b07b4cecc530f1549925906b85e8db16, type: 2}
   m_sharedMaterial: {fileID: -5514915455265084189, guid: b07b4cecc530f1549925906b85e8db16, type: 2}
@@ -1391,9 +1376,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Main Menu
-
-'
+  m_text: "\u0413\u043B\u0430\u0432\u043D\u043E\u0435 \u043C\u0435\u043D\u044E"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b07b4cecc530f1549925906b85e8db16, type: 2}
   m_sharedMaterial: {fileID: -5514915455265084189, guid: b07b4cecc530f1549925906b85e8db16, type: 2}
@@ -1599,15 +1582,15 @@ GameObject:
   - component: {fileID: 519765584}
   - component: {fileID: 519765586}
   - component: {fileID: 519765585}
-  - component: {fileID: 519765587}
   - component: {fileID: 519765588}
+  - component: {fileID: 519765587}
   m_Layer: 5
   m_Name: ESC_Panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &519765584
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1674,8 +1657,8 @@ CanvasGroup:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519765583}
   m_Enabled: 1
-  m_Alpha: 1
-  m_Interactable: 1
+  m_Alpha: 0
+  m_Interactable: 0
   m_BlocksRaycasts: 0
   m_IgnoreParentGroups: 0
 --- !u!114 &519765588
@@ -1690,8 +1673,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b927aa77b69cdc45ad5948801bb05cc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  progressPanel: {fileID: 0}
-  isOpenPanel: 0
+  panel: {fileID: 328593362}
+  canvasGroup: {fileID: 519765587}
+  duration: 0.35
+  isOpen: 0
 --- !u!1 &556955639
 GameObject:
   m_ObjectHideFlags: 0
@@ -1735,11 +1720,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1cd2b0761f1ce9744961d3f33b70ef4a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  panel: {fileID: 519765588}
   continueButton: {fileID: 611799399}
   mainMenuButton: {fileID: 331036093}
-  progressPanel: {fileID: 328593362}
-  darkness: {fileID: 0}
-  isOpenPanel: 0
 --- !u!1 &562738556
 GameObject:
   m_ObjectHideFlags: 0
@@ -1792,9 +1775,10 @@ MonoBehaviour:
   objectPrefubsNotAdded:
   - {fileID: 8545025497323251797, guid: 75dd84385d011bd40b94f2c640ef157d, type: 3}
   - {fileID: 1864851786058597882, guid: fa11f93ab8ff9e84fa50118800872c11, type: 3}
+  - {fileID: 4582446043805721736, guid: 975bafc0d9692794d957c3b0402295f7, type: 3}
   objectPrefubsCurrent:
   - {fileID: 128302738510155126, guid: 0573efd3e010e354b88ca47c8b0d131f, type: 3}
-  safeIntPrefubs: 00000000
+  safeIntPrefubs: 0000000000000000
 --- !u!1 &611799397
 GameObject:
   m_ObjectHideFlags: 0
@@ -1829,9 +1813,9 @@ RectTransform:
   m_Father: {fileID: 394622408}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 200, y: -90.425}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 308, y: 130.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &611799399
@@ -2180,6 +2164,7 @@ Transform:
   - {fileID: 1490059927}
   - {fileID: 556955640}
   - {fileID: 1233602547}
+  - {fileID: 2118596087}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2800,7 +2785,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Level up
+  m_text: "\u041F\u0440\u043E\u043A\u0430\u0447\u043A\u0430"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b07b4cecc530f1549925906b85e8db16, type: 2}
   m_sharedMaterial: {fileID: -5514915455265084189, guid: b07b4cecc530f1549925906b85e8db16, type: 2}
@@ -2926,13 +2911,14 @@ GameObject:
   - component: {fileID: 908546313}
   - component: {fileID: 908546312}
   - component: {fileID: 908546314}
+  - component: {fileID: 908546315}
   m_Layer: 5
   m_Name: LevelUpPanel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &908546311
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3003,8 +2989,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b927aa77b69cdc45ad5948801bb05cc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  progressPanel: {fileID: 0}
-  isOpenPanel: 0
+  panel: {fileID: 2126505491}
+  canvasGroup: {fileID: 908546315}
+  duration: 0.35
+  isOpen: 0
+--- !u!225 &908546315
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 908546310}
+  m_Enabled: 1
+  m_Alpha: 0
+  m_Interactable: 0
+  m_BlocksRaycasts: 0
+  m_IgnoreParentGroups: 0
 --- !u!1 &941457748
 GameObject:
   m_ObjectHideFlags: 0
@@ -3039,10 +3039,10 @@ RectTransform:
   m_Father: {fileID: 1409639327}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 258.725, y: -240.095}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &941457750
 MonoBehaviour:
@@ -3183,7 +3183,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Pause
+  m_text: "\u041F\u0430\u0443\u0437\u0430"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b07b4cecc530f1549925906b85e8db16, type: 2}
   m_sharedMaterial: {fileID: -5514915455265084189, guid: b07b4cecc530f1549925906b85e8db16, type: 2}
@@ -3462,6 +3462,8 @@ MonoBehaviour:
   dashSound: {fileID: 1049717438}
   startPosition: {fileID: 1992552591}
   fallPosition: {fileID: 800507552}
+  pickupHeartEffect: {fileID: 100004, guid: 3af6f68141914ca43ba39b2403757bd0, type: 3}
+  brokenHeartEffect: {fileID: 100006, guid: bcaff8fc36e95584bb27cc3cf7c6cb14, type: 3}
 --- !u!82 &1049717438
 AudioSource:
   m_ObjectHideFlags: 0
@@ -4380,6 +4382,7 @@ GameObject:
   - component: {fileID: 1386519664}
   - component: {fileID: 1386519663}
   - component: {fileID: 1386519662}
+  - component: {fileID: 1386519666}
   m_Layer: 5
   m_Name: InfoPanel
   m_TagString: Untagged
@@ -4399,8 +4402,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b927aa77b69cdc45ad5948801bb05cc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  progressPanel: {fileID: 0}
-  isOpenPanel: 1
+  panel: {fileID: 705969353}
+  canvasGroup: {fileID: 1386519666}
+  duration: 0.35
+  isOpen: 1
 --- !u!114 &1386519663
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4459,6 +4464,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!225 &1386519666
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1386519661}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &1398452527
 GameObject:
   m_ObjectHideFlags: 0
@@ -4720,11 +4737,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f3e68e80ade48b4194bd280993b3077, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  panel: {fileID: 908546314}
   heroHealth: {fileID: 1049717435}
   heartPlusButton: {fileID: 941457750}
-  progressPanel: {fileID: 2126505491}
-  darkness: {fileID: 0}
-  isOpenPanel: 0
 --- !u!114 &1490059929
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4737,11 +4752,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73ae089dbf60eba449f0bd9a3c8c5e1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  panel: {fileID: 1386519662}
   objectBottomSpawner: {fileID: 562738558}
   textDescription: {fileID: 1602320731}
-  progressPanel: {fileID: 705969353}
-  darkness: {fileID: 1386519661}
-  isOpenPanel: 1
 --- !u!1 &1537505773
 GameObject:
   m_ObjectHideFlags: 0
@@ -5435,7 +5448,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 3d4907e6bd39f474b8fd8220920e65c4, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 3d4907e6bd39f474b8fd8220920e65c4, type: 3}
       propertyPath: m_Layer
@@ -6041,6 +6054,53 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!1 &2118596086
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2118596087}
+  - component: {fileID: 2118596088}
+  m_Layer: 0
+  m_Name: PanelsController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2118596087
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2118596086}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 693424654}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2118596088
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2118596086}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b29578302ff146545b60660449b32608, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  panels:
+  - {fileID: 1386519662}
+  - {fileID: 908546314}
+  - {fileID: 519765588}
 --- !u!1 &2126505491
 GameObject:
   m_ObjectHideFlags: 0
@@ -6068,7 +6128,7 @@ RectTransform:
   m_GameObject: {fileID: 2126505491}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 864177916}
   - {fileID: 1409639327}

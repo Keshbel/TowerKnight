@@ -1,47 +1,77 @@
 using System;
 using DG.Tweening;
-using DG.Tweening.Core;
-using DG.Tweening.Plugins.Options;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
+[RequireComponent(typeof(CanvasGroup))]
 public class Panel : MonoBehaviour, IPointerClickHandler
 {
-    [Header("Tweens")] 
-    public GameObject progressPanel;
-    public bool isOpenPanel;
-    private TweenerCore<Vector3, Vector3, VectorOptions> _tweenerScale;
+    [Header("Main")] 
+    public GameObject panel;
+    public CanvasGroup canvasGroup;
+
+    public float duration = 0.35f;
+    public bool isOpen;
+    
+    private Tweener _tweenerScale;
+    private Tweener _tweenerFade;
+
+    public Action OnPanelStateChange;
 
     private void Awake()
     {
-        progressPanel = gameObject;
-        if (isOpenPanel)
+        if (!panel)
+            panel = gameObject;
+
+        if (!canvasGroup)
+            canvasGroup = GetComponent<CanvasGroup>();
+        
+        if (isOpen)
             OpenPanel();
         else
             ClosePanel();
     }
 
-    private void OpenPanel()
+    public void OpenPanel()
     {
-        _tweenerScale?.Kill();
-        PanelState(true);
-        _tweenerScale = progressPanel.transform.DOScale(1f, 0.15f).OnComplete(PauseScript.Pause);
+        _tweenerScale?.Complete();
+
+        _tweenerScale = panel.transform.DOScale(1f, duration).OnComplete(()=>
+        {
+            isOpen = true;
+            OnPanelStateChange?.Invoke();
+        }).SetUpdate(true);
+        
+        TweenFadeDarkness(1);
     }
 
     public void ClosePanel()
     {
-        _tweenerScale?.Kill();
-        PauseScript.Play();
-        _tweenerScale = progressPanel.transform.DOScale(0f, 0.15f).OnComplete(() =>
+        _tweenerScale?.Complete();
+
+        _tweenerScale = panel.transform.DOScale(0f, duration).OnComplete(() =>
         {
-            PanelState(false);
-        });
+            isOpen = false;
+            OnPanelStateChange?.Invoke();
+        }).SetUpdate(true);
+        
+        TweenFadeDarkness(0);
     }
 
-    private void PanelState(bool isOn)
+    public void TweenFadeDarkness(float value)
     {
-        progressPanel.SetActive(isOn);
-        isOpenPanel = isOn;
+        _tweenerFade?.Kill();
+        _tweenerFade = canvasGroup.DOFade(value, duration).SetUpdate(true);
+        if (value > 0)
+        {
+            canvasGroup.interactable = true;
+            canvasGroup.blocksRaycasts = true;
+        }
+        else
+        {
+            canvasGroup.interactable = false;
+            canvasGroup.blocksRaycasts = false;
+        }
     }
 
     public void OnPointerClick(PointerEventData eventData)

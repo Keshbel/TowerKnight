@@ -22,12 +22,381 @@
     <list default="true" id="06a032da-22ec-4449-8241-6cfc215879e6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TowerKnight/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TowerKnight/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TowerKnight/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TowerKnight/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Backgrounds.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Backgrounds/BackgroundScript.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Backgrounds/BackgroundScript.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Backgrounds/Clouds.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Backgrounds/Clouds/Images.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Backgrounds/Clouds/Images/cartoonish-watercolor-cloud-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Backgrounds/Clouds/Images/cartoonish-watercolor-cloud-1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Backgrounds/Clouds/Images/cartoonish-watercolor-cloud-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Backgrounds/Clouds/Images/cartoonish-watercolor-cloud-2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Backgrounds/Clouds/Images/cartoonish-watercolor-cloud-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Backgrounds/Clouds/Images/cartoonish-watercolor-cloud-3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Backgrounds/Clouds/Images/cartoonish-watercolor-cloud-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Backgrounds/Clouds/Images/cartoonish-watercolor-cloud-4.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Backgrounds/Clouds/Images/cartoonish-watercolor-cloud-5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Backgrounds/Clouds/Images/cartoonish-watercolor-cloud-5.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Backgrounds/Clouds/Images/pngegg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Backgrounds/Clouds/Images/pngegg.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Backgrounds/Clouds/Images/pngwing.com (1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Backgrounds/Clouds/Images/pngwing.com (1).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Backgrounds/Clouds/Prefubs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Backgrounds/Clouds/Prefubs/Cloud (1).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Backgrounds/Clouds/Prefubs/Cloud (1).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Backgrounds/Clouds/Prefubs/Cloud (2).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Backgrounds/Clouds/Prefubs/Cloud (2).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Backgrounds/Clouds/Prefubs/Cloud (3).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Backgrounds/Clouds/Prefubs/Cloud (3).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Backgrounds/Clouds/Prefubs/Cloud (4).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Backgrounds/Clouds/Prefubs/Cloud (4).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Backgrounds/Clouds/Prefubs/Cloud (5).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Backgrounds/Clouds/Prefubs/Cloud (5).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Backgrounds/Clouds/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Backgrounds/Clouds/Scripts/CloudAnimation.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Backgrounds/Clouds/Scripts/CloudAnimation.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Backgrounds/Clouds/Scripts/CloudManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Backgrounds/Clouds/Scripts/CloudManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Backgrounds/Earth.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Backgrounds/Earth.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Backgrounds/Sky.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Backgrounds/Sky.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Backgrounds/SkyMaterial.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Backgrounds/SkyMaterial.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Backgrounds/Stars.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Backgrounds/Stars.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Backgrounds/StartMaterial.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Backgrounds/StartMaterial.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Backgrounds/ЗвездныйФон.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Backgrounds/ЗвездныйФон.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/JMO Assets/Cartoon FX/CFX2 Prefabs/Misc/CFX2_BrokenHeart.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/JMO Assets/Cartoon FX/CFX2 Prefabs/Misc/CFX2_BrokenHeart.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainMenu.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainMenu/MainMenu.mixer" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainMenu/MainMenu.mixer.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainMenu/Music.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainMenu/Music/Autumn Allure _ unminus.com.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainMenu/Music/Autumn Allure _ unminus.com.mp3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainMenu/ScreenShot1380.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainMenu/ScreenShot1380.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainMenu/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainMenu/Scripts/MainMenuController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainMenu/Scripts/MainMenuController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Music/Christopher Larkin - Hornet.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Music/Christopher Larkin - Hornet.mp3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Music/Dash.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Music/Dash.mp3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Music/roblox-death-sound-effect.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Music/roblox-death-sound-effect.mp3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Music/Бах.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Music/Бах.mp3.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Objects/HERO/Animations/Hero.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Objects/HERO/Animations/Hero.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/ObjectBottomSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/ObjectBottomSpawner.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Prefubs/SlimeGreen.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Prefubs/SlimeGreen.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Prefubs/SlimeOrange.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Prefubs/SlimeOrange.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameSettingsScript.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameSettingsScript.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Health.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Health/Health.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Health/Health.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Health/HpBarScript.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Health/HpBarScript.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/InfoPanelScript.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/InfoPanelScript.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PauseScript.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PauseScript.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Progress.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Progress/ProgressBarScript.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Progress/ProgressBarScript.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Progress/ProgressData.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Progress/ProgressData.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Progress/ProgressScript.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Progress/ProgressScript.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/StartJumpScript.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/StartJumpScript.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Panel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Panel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/HERO.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/HERO/Animations.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/HERO/Animations/Attack.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/HERO/Animations/Attack.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/HERO/Animations/AttackDash.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/HERO/Animations/AttackDash/DashBlue_00000.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/HERO/Animations/AttackDash/DashBlue_00000.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/HERO/Animations/AttackDash/DashBlue_00001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/HERO/Animations/AttackDash/DashBlue_00001.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/HERO/Animations/AttackDash/DashBlue_00002.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/HERO/Animations/AttackDash/DashBlue_00002.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/HERO/Animations/AttackDash/DashBlue_00003.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/HERO/Animations/AttackDash/DashBlue_00003.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/HERO/Animations/AttackDash/DashBlue_00004.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/HERO/Animations/AttackDash/DashBlue_00004.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/HERO/Animations/AttackDash/DashBlue_00005.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/HERO/Animations/AttackDash/DashBlue_00005.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/HERO/Animations/AttackDash/DashBlue_00006.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/HERO/Animations/AttackDash/DashBlue_00006.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/HERO/Animations/AttackDash/DashBlue_00007.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/HERO/Animations/AttackDash/DashBlue_00007.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/HERO/Animations/AttackDash/DashBlue_00008.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/HERO/Animations/AttackDash/DashBlue_00008.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/HERO/Animations/AttackDash/DashBlue_00009.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/HERO/Animations/AttackDash/DashBlue_00009.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/HERO/Animations/AttackDash/DashBlue_00010.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/HERO/Animations/AttackDash/DashBlue_00010.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/HERO/Animations/AttackDash/DashBlue_00011.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/HERO/Animations/AttackDash/DashBlue_00011.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/HERO/Animations/AttackDash/DashBlue_00012.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/HERO/Animations/AttackDash/DashBlue_00012.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/HERO/Animations/AttackDash/DashBlue_00013.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/HERO/Animations/AttackDash/DashBlue_00013.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/HERO/Animations/AttackDash/DashBlue_00014.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/HERO/Animations/AttackDash/DashBlue_00014.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/HERO/Animations/AttackDash/DashBlue_00015.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/HERO/Animations/AttackDash/DashBlue_00015.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/HERO/Animations/Hero.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/HERO/Animations/Hero.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/HERO/Animations/Idle.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/HERO/Animations/Idle.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/HERO/Animations/Idle.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/HERO/Animations/Idle/Chara - BlueIdle00000.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/HERO/Animations/Idle/Chara - BlueIdle00000.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/HERO/Animations/Idle/Chara - BlueIdle00001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/HERO/Animations/Idle/Chara - BlueIdle00001.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/HERO/Animations/Idle/Chara - BlueIdle00002.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/HERO/Animations/Idle/Chara - BlueIdle00002.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/HERO/Animations/Idle/Chara - BlueIdle00003.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/HERO/Animations/Idle/Chara - BlueIdle00003.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/HERO/Animations/Idle/Chara - BlueIdle00004.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/HERO/Animations/Idle/Chara - BlueIdle00004.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/HERO/Animations/Idle/Chara - BlueIdle00005.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/HERO/Animations/Idle/Chara - BlueIdle00005.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/HERO/Animations/Idle/Chara - BlueIdle00006.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/HERO/Animations/Idle/Chara - BlueIdle00006.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/HERO/Animations/Idle/Chara - BlueIdle00007.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/HERO/Animations/Idle/Chara - BlueIdle00007.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/HERO/Animations/Idle/Chara - BlueIdle00008.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/HERO/Animations/Idle/Chara - BlueIdle00008.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/HERO/Animations/Idle/Chara - BlueIdle00009.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/HERO/Animations/Idle/Chara - BlueIdle00009.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/HERO/Animations/Idle/Chara - BlueIdle00010.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/HERO/Animations/Idle/Chara - BlueIdle00010.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/HERO/Animations/Idle/Chara - BlueIdle00011.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/HERO/Animations/Idle/Chara - BlueIdle00011.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/HERO/Animations/Idle/Chara - BlueIdle00012.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/HERO/Animations/Idle/Chara - BlueIdle00012.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/HERO/Animations/Idle/Chara - BlueIdle00013.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/HERO/Animations/Idle/Chara - BlueIdle00013.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/HERO/Animations/Idle/Chara - BlueIdle00014.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/HERO/Animations/Idle/Chara - BlueIdle00014.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/HERO/Animations/Idle/Chara - BlueIdle00015.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/HERO/Animations/Idle/Chara - BlueIdle00015.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/HERO/Animations/Idle/Chara - BlueIdle00016.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/HERO/Animations/Idle/Chara - BlueIdle00016.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/HERO/Animations/Idle/Chara - BlueIdle00017.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/HERO/Animations/Idle/Chara - BlueIdle00017.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/HERO/Animations/Idle/Chara - BlueIdle00018.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/HERO/Animations/Idle/Chara - BlueIdle00018.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/HERO/Animations/Idle/Chara - BlueIdle00019.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/HERO/Animations/Idle/Chara - BlueIdle00019.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/HERO/Animations/Jump.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/HERO/Animations/Jump.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/HERO/Animations/Jump.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/HERO/Animations/Jump/CharaWizardJump_00000.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/HERO/Animations/Jump/CharaWizardJump_00000.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/HERO/Animations/Jump/CharaWizardJump_00001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/HERO/Animations/Jump/CharaWizardJump_00001.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/HERO/Animations/Jump/CharaWizardJump_00002.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/HERO/Animations/Jump/CharaWizardJump_00002.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/HERO/Animations/Jump/CharaWizardJump_00003.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/HERO/Animations/Jump/CharaWizardJump_00003.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/HERO/Animations/Jump/CharaWizardJump_00004.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/HERO/Animations/Jump/CharaWizardJump_00004.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/HERO/Animations/Jump/CharaWizardJump_00005.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/HERO/Animations/Jump/CharaWizardJump_00005.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/HERO/Animations/Jump/CharaWizardJump_00006.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/HERO/Animations/Jump/CharaWizardJump_00006.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/HERO/Animations/Jump/CharaWizardJump_00007.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/HERO/Animations/Jump/CharaWizardJump_00007.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/HERO/MainHero.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/HERO/MainHero.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/Fireboll.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/Fireboll.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/Fireboll.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/Fireboll.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/FirebollPixel.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/FirebollPixel/FB001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/FirebollPixel/FB001.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/FirebollPixel/FB002.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/FirebollPixel/FB002.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/FirebollPixel/FB003.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/FirebollPixel/FB003.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/FirebollPixel/FB004.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/FirebollPixel/FB004.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/FirebollPixel/FB005.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/FirebollPixel/FB005.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeGreen.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeGreen.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeGreen.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeGreen.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeGreen.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeGreen/SlimeBasic_00000.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeGreen/SlimeBasic_00000.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeGreen/SlimeBasic_00001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeGreen/SlimeBasic_00001.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeGreen/SlimeBasic_00002.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeGreen/SlimeBasic_00002.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeGreen/SlimeBasic_00003.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeGreen/SlimeBasic_00003.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeGreen/SlimeBasic_00004.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeGreen/SlimeBasic_00004.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeGreen/SlimeBasic_00005.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeGreen/SlimeBasic_00005.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeGreen/SlimeBasic_00006.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeGreen/SlimeBasic_00006.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeGreen/SlimeBasic_00007.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeGreen/SlimeBasic_00007.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeGreen/SlimeBasic_00008.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeGreen/SlimeBasic_00008.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeGreen/SlimeBasic_00009.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeGreen/SlimeBasic_00009.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeGreen/SlimeBasic_00010.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeGreen/SlimeBasic_00010.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeGreen/SlimeBasic_00011.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeGreen/SlimeBasic_00011.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeGreen/SlimeBasic_00012.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeGreen/SlimeBasic_00012.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeGreen/SlimeBasic_00013.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeGreen/SlimeBasic_00013.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeGreen/SlimeBasic_00014.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeGreen/SlimeBasic_00014.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeGreen/SlimeBasic_00015.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeGreen/SlimeBasic_00015.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeGreen/SlimeBasic_00016.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeGreen/SlimeBasic_00016.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeGreen/SlimeBasic_00017.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeGreen/SlimeBasic_00017.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeGreen/SlimeBasic_00018.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeGreen/SlimeBasic_00018.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeGreen/SlimeBasic_00019.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeGreen/SlimeBasic_00019.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeGreen/SlimeBasic_00020.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeGreen/SlimeBasic_00020.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeGreen/SlimeBasic_00021.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeGreen/SlimeBasic_00021.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeGreen/SlimeBasic_00022.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeGreen/SlimeBasic_00022.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeGreen/SlimeBasic_00023.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeGreen/SlimeBasic_00023.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeGreen/SlimeBasic_00024.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeGreen/SlimeBasic_00024.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeGreen/SlimeBasic_00025.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeGreen/SlimeBasic_00025.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeGreen/SlimeBasic_00026.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeGreen/SlimeBasic_00026.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeGreen/SlimeBasic_00027.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeGreen/SlimeBasic_00027.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeGreen/SlimeBasic_00028.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeGreen/SlimeBasic_00028.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeGreen/SlimeBasic_00029.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeGreen/SlimeBasic_00029.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeOrange.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeOrange.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeOrange.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeOrange/SlimeOrange_00000.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeOrange/SlimeOrange_00000.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeOrange/SlimeOrange_00001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeOrange/SlimeOrange_00001.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeOrange/SlimeOrange_00002.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeOrange/SlimeOrange_00002.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeOrange/SlimeOrange_00003.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeOrange/SlimeOrange_00003.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeOrange/SlimeOrange_00004.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeOrange/SlimeOrange_00004.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeOrange/SlimeOrange_00005.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeOrange/SlimeOrange_00005.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeOrange/SlimeOrange_00006.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeOrange/SlimeOrange_00006.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeOrange/SlimeOrange_00007.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeOrange/SlimeOrange_00007.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeOrange/SlimeOrange_00008.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeOrange/SlimeOrange_00008.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeOrange/SlimeOrange_00009.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeOrange/SlimeOrange_00009.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeOrange/SlimeOrange_00010.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeOrange/SlimeOrange_00010.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeOrange/SlimeOrange_00011.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeOrange/SlimeOrange_00011.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeOrange/SlimeOrange_00012.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeOrange/SlimeOrange_00012.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeOrange/SlimeOrange_00013.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeOrange/SlimeOrange_00013.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeOrange/SlimeOrange_00014.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeOrange/SlimeOrange_00014.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeOrange/SlimeOrange_00015.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeOrange/SlimeOrange_00015.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeOrange/SlimeOrange_00016.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeOrange/SlimeOrange_00016.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeOrange/SlimeOrange_00017.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeOrange/SlimeOrange_00017.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeOrange/SlimeOrange_00018.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeOrange/SlimeOrange_00018.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeOrange/SlimeOrange_00019.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeOrange/SlimeOrange_00019.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeOrange/SlimeOrange_00020.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeOrange/SlimeOrange_00020.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeOrange/SlimeOrange_00021.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeOrange/SlimeOrange_00021.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeOrange/SlimeOrange_00022.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeOrange/SlimeOrange_00022.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeOrange/SlimeOrange_00023.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeOrange/SlimeOrange_00023.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeOrange/SlimeOrange_00024.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeOrange/SlimeOrange_00024.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeOrange/SlimeOrange_00025.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeOrange/SlimeOrange_00025.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeOrange/SlimeOrange_00026.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeOrange/SlimeOrange_00026.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeOrange/SlimeOrange_00027.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeOrange/SlimeOrange_00027.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeOrange/SlimeOrange_00028.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeOrange/SlimeOrange_00028.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeOrange/SlimeOrange_00029.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeOrange/SlimeOrange_00029.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeOrangeanim.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Animations/SlimeOrangeanim.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/CountObjectsStatic.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/CountObjectsStatic.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Enemy.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Enemy.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Fireboll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Fireboll/FirebollScript.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Fireboll/FirebollScript.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Fireboll/pngwing.com (3).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Fireboll/pngwing.com (3).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/ObjectBottomSpawner.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/ObjectBottomSpawner.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/OrangeMonster.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/OrangeMonster.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Prefubs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Prefubs/Fireboll.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Prefubs/Fireboll.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Prefubs/SlimeGreen.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Prefubs/SlimeGreen.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Prefubs/SlimeOrange.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Prefubs/SlimeOrange.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/RedMonster.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/MONSTERS/RedMonster.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe1.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe1.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe10.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe10.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe11.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe11.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe2.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe2.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe3.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe3.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe4.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe4.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe5.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe5.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe6.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe6.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe7.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe7.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe8.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe8.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe9.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe9.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,10 +407,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PauseScript.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_Objects/MONSTERS/CountObjectsStatic.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Progress/ProgressBarScript.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/InfoPanelScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Objects/Buffs/Buff.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Utility/ObjectsUtility.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/PanelsController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/Panel.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -57,7 +425,6 @@
         <option value="$PROJECT_DIR$/Assets/_Objects/HERO/HpBarScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Background/Clouds/Scripts/CloudAnimation.cs" />
         <option value="$PROJECT_DIR$/Assets/_Objects/MONSTERS/FirebollScript.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Objects/MONSTERS/CountObjectsStatic.cs" />
         <option value="$PROJECT_DIR$/Assets/MainMenu/MainMenuController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Follow2D.cs" />
         <option value="$PROJECT_DIR$/Assets/Background/BackgroundScript.cs" />
@@ -69,14 +436,30 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Progress/ProgressData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Progress/ProgressBarScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameSettingsScript.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Fireboll/FirebollScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Health/Health.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Objects/HERO/MainHero.cs" />
         <option value="$PROJECT_DIR$/Assets/_Objects/MONSTERS/RedMonster.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Enemy.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Objects/MONSTERS/ObjectBottomSpawner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InfoPanelScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ObjectName.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ObjectScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Enemy.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Objects/MONSTERS/Fireboll/FirebollScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Objects/HERO/MainHero.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/PanelController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/Panel.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Objects/MONSTERS/ObjectBottomSpawner.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Objects/MONSTERS/CountObjectsStatic.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Pause/PauseScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Progress/ProgressScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/PanelsController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/InfoPanelScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Utility/ObjectsUtility.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Objects/Enemy/FirebollScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Health/Health.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Objects/Buffs/Buff.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Objects/Enemy/Enemy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Objects/ObjectBottomSpawner.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Objects/ObjectScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Objects/MainHero/MainHero.cs" />
       </list>
     </option>
   </component>
@@ -148,6 +531,8 @@
       <workItem from="1650187605812" duration="1342000" />
       <workItem from="1651741738002" duration="1284000" />
       <workItem from="1652021319752" duration="2489000" />
+      <workItem from="1652545139918" duration="562000" />
+      <workItem from="1652604110158" duration="11704000" />
     </task>
     <servers />
   </component>
@@ -176,10 +561,10 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="533" y="201" key="SettingsEditor/0.0.2048.1112@0.0.2048.1112" timestamp="1648568191581" />
-    <state x="93" y="93" width="1862" height="926" key="VCS.FileHistoryDialog" timestamp="1649003752342">
+    <state x="93" y="93" width="1862" height="926" key="VCS.FileHistoryDialog" timestamp="1652606999075">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="93" y="93" width="1862" height="926" key="VCS.FileHistoryDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1649003752342" />
+    <state x="93" y="93" width="1862" height="926" key="VCS.FileHistoryDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1652606999075" />
     <state x="687" y="243" width="672" height="678" key="search.everywhere.popup" timestamp="1650187917595">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>

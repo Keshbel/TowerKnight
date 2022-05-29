@@ -8,30 +8,6 @@
       <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="_Objects" t="Include">
-          <e p="HERO" t="Include">
-            <e p="MainHero.cs" t="Include" />
-          </e>
-          <e p="MONSTERS" t="Include">
-            <e p="CountObjectsStatic.cs" t="Include" />
-            <e p="Enemy.cs" t="Include" />
-            <e p="Fireboll" t="Include">
-              <e p="FirebollScript.cs" t="Include" />
-            </e>
-            <e p="ObjectBottomSpawner.cs" t="Include" />
-            <e p="OrangeMonster.cs" t="Include" />
-            <e p="RedMonster.cs" t="Include" />
-          </e>
-        </e>
-        <e p="Backgrounds" t="Include">
-          <e p="BackgroundScript.cs" t="Include" />
-          <e p="Clouds" t="Include">
-            <e p="Scripts" t="Include">
-              <e p="CloudAnimation.cs" t="Include" />
-              <e p="CloudManager.cs" t="Include" />
-            </e>
-          </e>
-        </e>
         <e p="ImportedAssets" t="Include">
           <e p="TextMesh Pro" t="Include">
             <e p="Examples &amp; Extras" t="Include">
@@ -145,11 +121,6 @@
             </e>
           </e>
         </e>
-        <e p="MainMenu" t="Include">
-          <e p="Scripts" t="Include">
-            <e p="MainMenuController.cs" t="Include" />
-          </e>
-        </e>
         <e p="Plugins" t="Include">
           <e p="Demigiant" t="Include">
             <e p="DOTween" t="Include">
@@ -168,21 +139,56 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
-          <e p="GameSettingsScript.cs" t="Include" />
-          <e p="Health" t="Include">
-            <e p="Health.cs" t="Include" />
-            <e p="HpBarScript.cs" t="Include" />
+          <e p="Backgrounds" t="Include">
+            <e p="BackgroundScript.cs" t="Include" />
+            <e p="CloudAnimation.cs" t="Include" />
+            <e p="CloudManager.cs" t="Include" />
           </e>
-          <e p="InfoPanelScript.cs" t="Include" />
-          <e p="PauseScript.cs" t="Include" />
-          <e p="Progress" t="Include">
-            <e p="ProgressBarScript.cs" t="Include" />
-            <e p="ProgressData.cs" t="Include" />
-            <e p="ProgressScript.cs" t="Include" />
+          <e p="Common" t="Include">
+            <e p="GameSettingsScript.cs" t="Include" />
+            <e p="StartJumpScript.cs" t="Include" />
           </e>
-          <e p="StartJumpScript.cs" t="Include" />
+          <e p="MainMenu" t="Include">
+            <e p="MainMenuController.cs" t="Include" />
+          </e>
+          <e p="Objects" t="Include">
+            <e p="Buffs" t="Include">
+              <e p="Buff.cs" t="Include" />
+            </e>
+            <e p="CountObjectsStatic.cs" t="Include" />
+            <e p="Enemy" t="Include">
+              <e p="Enemy.cs" t="Include" />
+              <e p="FirebollScript.cs" t="Include" />
+              <e p="OrangeMonster.cs" t="Include" />
+              <e p="RedMonster.cs" t="Include" />
+            </e>
+            <e p="MainHero" t="Include">
+              <e p="MainHero.cs" t="Include" />
+            </e>
+            <e p="ObjectBottomSpawner.cs" t="Include" />
+            <e p="ObjectScript.cs" t="Include" />
+          </e>
+          <e p="Systems" t="Include">
+            <e p="Health" t="Include">
+              <e p="Health.cs" t="Include" />
+              <e p="HpBarScript.cs" t="Include" />
+            </e>
+            <e p="Pause" t="Include">
+              <e p="PauseScript.cs" t="Include" />
+            </e>
+            <e p="Progress" t="Include">
+              <e p="ProgressBarScript.cs" t="Include" />
+              <e p="ProgressData.cs" t="Include" />
+              <e p="ProgressScript.cs" t="Include" />
+            </e>
+          </e>
           <e p="UI" t="Include">
+            <e p="InfoPanelScript.cs" t="Include" />
             <e p="Panel.cs" t="Include" />
+            <e p="PanelsController.cs" t="Include" />
+          </e>
+          <e p="Utility" t="Include">
+            <e p="ObjectsUtility.cs" t="Include" />
           </e>
         </e>
       </e>
